@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="999" Width="1017">
+	<StackPanel Name="Panel" HorizontalAlignment="Center" Margin="0,162,0,37" Width="874">
+		<TextBox Name="TimerText" Width="400" Height="40" IsEnabled="True" FontSize="24"></TextBox>
+
+		<Grid Name ="grid" ShowGridLines="False" Height="629" Width="758">
+
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Name="btn1" Grid.Row="0" Grid.Column="0" Margin="28,15,0,454" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked" Height="160"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn2" Grid.Row="0" Margin="282,15,0,454" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn3" Grid.Row="0" Margin="532,15,0,454" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Name="btn4" Grid.Column="0" Margin="28,214,0,255" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn5" Margin="282,214,0,255" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn6" Margin="532,214,0,255" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn7" Grid.Column="0" Margin="28,413,0,56" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Height="160" Name="btn8" Margin="282,413,0,56" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked"/>
+			<Button FontSize="120" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="160" Name="btn9" Margin="532,413,0,56" Background="Black" Foreground="Blue" HorizontalAlignment="Left" Click="SendButtonClicked" Height="160"/>
+
+		</Grid>
+
+	</StackPanel>
+</Window>
